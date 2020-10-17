@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C9ED"
+    android:orientation="vertical"
+    tools:context=".amit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Iqra Fatima"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="
+ I wanted to thank you but was unable to explain what it means to have a friend to share life's joys and life's pains
+It's good to know our friendship is endless devotion
+Forged out of respect and every kind of emotion
+Happiest birthday my girl keshui❤️
+
+"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="30dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:padding="20dp"
+                android:src="@drawable/iqra1" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

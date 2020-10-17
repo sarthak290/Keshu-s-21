@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/snigdha"
+            android:title="Keshui" />
+<!--        <item-->
+<!--            android:id="@+id/nav_gallery"-->
+<!--            android:icon="@drawable/bff"-->
+<!--            android:title="BFF" />-->
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/video"
+            android:title="Special Video" />
+        <item
+            android:id="@+id/credits"
+            android:icon="@drawable/credit"
+            android:title="Credits" />
+
+    </group>
+
+    <item android:title="Wishes">
+        <menu>
+            <item
+                android:id="@+id/aditi"
+                android:icon="@drawable/friend"
+                android:title="Amit" />
+            <item
+                android:id="@+id/prachi"
+                android:icon="@drawable/friend"
+                android:title="Pratibha" />
+            <item
+                android:id="@+id/vibhor"
+                android:icon="@drawable/friend"
+                android:title="Shrishti" />
+            <item
+                android:id="@+id/amit"
+                android:icon="@drawable/friend"
+                android:title="Iqra" />
+            <item
+                android:id="@+id/ritik"
+                android:icon="@drawable/friend"
+                android:title="Ritik" />
+            <item
+                android:id="@+id/rishab"
+                android:icon="@drawable/friend"
+                android:title="Amaan" />
+        </menu>
+    </item>
+
+
+
+</menu>

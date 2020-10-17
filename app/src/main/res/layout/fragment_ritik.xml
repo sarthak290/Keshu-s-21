@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C9ED"
+    android:orientation="vertical"
+    tools:context=".ritik">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Ritik Rastogi"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Happiest birthday to u keshui ji miss diwali mela queen miss dusherra mela queen miss invertia aur bhi bht kch 😂 dua h mere aur bhi jeete humesha jeete aur khush rhe frndshp humare pichle saal s he achi hui h lkin lgta h k bht phle s jante h
+Ha vo bt alg h m bt nhi kr pataa terese s shi s na mil pata lkin Tu h yaar mere bht achi dost humesha rhegi
+Nature toh humesha m amit s khta aya hu alg h yr keshu nature k baaki toh sb jante he ho tuum koi galti hui ho toh maaf krdena bs 😅 kyuki hoti rhti h humse aur ha lots of love
+Humesha khush rhi jinda rho aur aise he shows jeet kr  naam roshan kro ❤
+"
+
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="30dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/ritik1" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

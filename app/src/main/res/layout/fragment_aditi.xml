@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C9ED"
+    android:orientation="vertical"
+    tools:context=".aditi">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="cursive"
+               android:text="Amit Kumar (ammo)"
+               android:textAlignment="center"
+               android:textColor="#55172C"
+               android:textSize="40dp"
+               android:padding="20dp"
+               android:textStyle="bold" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="cursive"
+               android:text="So here's your birthday bacha ❤ firstly happy birthday🎂 to my bff ❤ a precious gift I m having In my life  kch acha he kia hogaa pichle janam m jo 🥺😍 i got u as my bff . Tareef jyda nhi krunga vrna tu pari bn jaati h  lkin tu best h yaar bht saari memories h bht masti h life k kch best parts bhi tere saath h yaar neva wanna loose uh yaar can’t express what u r to me. Ha u mk me smile ,u listen to all my shits I love uh so mch fr tht  will alwys be their wth uh fr uh till my entire life. May this birthday be d best u ever had and haa 😅 surprise surprise surprise . And yeah ik u will achieve a lot ❤ i will alwys wth uh in tht supporting uh. One day u will be a star ❤. A bond of more thn 5 years and still counting becz it has no ending at all . Khush rhna vrna 😅 hum krdnge tnsion kis baat k h. Khne ko bht kch h 😅😍 bs abhi toh din k shruwaat h jb tu padh rhi hogi so 😍 …Happy birthday ❤"
+               android:padding="5dp"
+               android:textAlignment="center"
+               android:textColor="#55172C"
+               android:textSize="30dp"
+               />
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="500dp"
+               android:padding="20dp"
+               android:src="@drawable/ammo" />
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

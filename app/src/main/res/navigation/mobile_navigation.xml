@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.birthday.keshus21.ui.home.HomeFragment"
+        android:label="Keshui"
+        tools:layout="@layout/fragment_home" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.birthday.keshus21.ui.gallery.GalleryFragment"-->
+<!--        android:label="BFF"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.birthday.keshus21.ui.slideshow.SlideshowFragment"
+        android:label="Special Video"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/credits"
+        android:name="com.birthday.keshus21.credits"
+        android:label="Credits"
+        tools:layout="@layout/fragment_credits" />
+
+    <fragment
+        android:id="@+id/aditi"
+        android:name="com.birthday.keshus21.aditi"
+        android:label="Amit"
+        tools:layout="@layout/fragment_aditi" />
+    <fragment
+        android:id="@+id/prachi"
+        android:name="com.birthday.keshus21.prachi"
+        android:label="Pratibha"
+        tools:layout="@layout/fragment_prachi" />
+    <fragment
+        android:id="@+id/vibhor"
+        android:name="com.birthday.keshus21.vibhor"
+        android:label="Shrishti di"
+        tools:layout="@layout/fragment_vibhor" />
+    <fragment
+        android:id="@+id/amit"
+        android:name="com.birthday.keshus21.amit"
+        android:label="Iqra"
+        tools:layout="@layout/fragment_amit" />
+    <fragment
+        android:id="@+id/ritik"
+        android:name="com.birthday.keshus21.ritik"
+        android:label="Ritik"
+        tools:layout="@layout/fragment_ritik" />
+    <fragment
+        android:id="@+id/rishab"
+        android:name="com.birthday.keshus21.rishab"
+        android:label="Amaan"
+        tools:layout="@layout/fragment_rishab" />
+
+
+</navigation>
